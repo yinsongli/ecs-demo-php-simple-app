@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Simple PHP App</title>
+        <title>AWS CI/CD Demo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <style>body {margin-top: 40px; background-color: #333;}</style>
@@ -18,6 +18,7 @@
                 <h1>Simple demo App</h1>
                 <h2>Congratulations</h2>
                 <p>This demo application is now running on a container in Amazon ECS.</p>
+                <p>Continuous Deployment to Amazon ECS Using AWS CodePipeline, AWS CodeBuild, and AWS CloudFormation </p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
